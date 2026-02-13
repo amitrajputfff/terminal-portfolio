@@ -1,80 +1,137 @@
-# Terminal Portfolio
+# Terminal Portfolio v2.0
 
-Welcome to the Terminal Portfolio project! This is a React-based command-line interface (CLI) application showcasing a portfolio. It simulates a terminal where users can type commands to explore different sections of the portfolio.
+A premium, production-grade terminal portfolio built with **Next.js 15**, **TypeScript**, and **Tailwind CSS**. Features a cinematic theme system, advanced commands, and recruiter-optimized content.
 
-## Features
+## 🚀 Features
 
-- **Command Input**: Users can type commands to navigate through various sections of the portfolio.
-- **Command Autocomplete**: Use the `Tab` key to autocomplete commands.
-- **Command History**: Navigate through previous commands using the up arrow key.
-- **Dynamic Output**: Commands generate dynamic responses based on predefined logic.
+- **6 Premium Themes**: Pro Hacker, Cyberpunk, Dracula, Nord, Matrix, Monokai
+- **Advanced Command System**: 20+ commands with fuzzy matching and autocomplete
+- **Visual Effects**: Matrix rain, scanlines, CRT effect, glassmorphism
+- **Recruiter Optimized**: Quick overview, impact metrics, and hiring commands
+- **Fully Responsive**: Mobile-optimized with touch support
+- **Type-Safe**: Full TypeScript implementation
+- **Performance**: Code splitting, memoization, and lazy loading
 
-## Installation
+## 📦 Installation
 
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (v14 or higher)
-- [npm](https://www.npmjs.com/) (comes with Node.js) or [Yarn](https://yarnpkg.com/)
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/Abhinavks1405/terminal-portfolio.git
-cd terminal-portfolio
-```
-
-### Install Dependencies
 ```bash
 npm install
-# or
-yarn install
-```
-### Development Mode
-To run the application in development mode with live reloading:
-```bash
-npm start
-# or
-yarn start
 ```
 
-### Build for Production
-To create a production build of the application:
+## 🛠️ Development
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## 🏗️ Build
+
 ```bash
 npm run build
-# or
-yarn build
 ```
 
-### Commands
-Here's a list of commands you can use:
+## 🚢 Deployment
 
-- Socials: Displays social media links.
-- kills: Lists the skills and technologies used.
-- about: Provides information about the portfolio owner.
-- projects: Shows a list of projects.
-- resume: Displays a link to the resume.
-- clear: Clears the terminal.
-- help: Shows a list of available commands.
-- goals: Lists personal and professional goals.
-- experience: Details professional experience.
+### Vercel (Recommended)
 
-### Key Bindings
-The application supports several key bindings:
+```bash
+vercel
+```
 
-- Enter: Executes the current command and displays its output.
-- Arrow Up: Navigates through previous commands.
-- Tab: Autocompletes commands based on predefined options.
+### Netlify
 
-### License
-This project is licensed under the MIT License - see the LICENSE file for details.
+```bash
+npm run build
+# Deploy the 'out' directory
+```
 
-### Acknowledgments
-- React: The JavaScript library used for building the user interface.
-- Tailwind CSS: For styling the application.
-- GitHub: For hosting the repository.
+### Static Export
 
-### Contact
-For any questions or feedback, please reach out to:
+The project is configured for static export. After building, deploy the `out` directory to any static hosting service.
 
-- Your Name: abhinavkumarsingh1405@gmail.com
+## 📚 Available Commands
 
+### Portfolio
+- `about` - Learn about Amit
+- `skills` - View technical skills (try `--graph`)
+- `experience` - Professional experience
+- `education` - Educational background
+- `projects` - Notable projects
+- `achievements` - Awards and achievements
+- `certifications` - Professional certifications
+- `resume` - View/download resume
+
+### Recruiter
+- `recruiter` - Quick overview for recruiters
+- `hire` - Why you should hire Amit
+- `impact` - Quantified achievements
+- `stack` - Technology stack summary
+
+### System
+- `neofetch` - System information
+- `theme` - Change theme (try `theme --list`)
+- `clear` - Clear terminal
+- `socials` - Social media links
+- `help` - Show all commands
+
+### Fun
+- `sudo` - Try it and see!
+- `matrix` - Toggle matrix rain effect
+- `timeline` - Career timeline view
+- `easteregg` - Hidden easter egg
+
+## 🎨 Themes
+
+Switch themes using: `theme [name]`
+
+- **pro-hacker** - Green on black with scanlines (default)
+- **cyberpunk** - Neon pink and cyan with glassmorphism
+- **dracula** - Purple and pink palette
+- **nord** - Cool arctic blue tones
+- **matrix** - Classic green with rain effect
+- **monokai** - Warm syntax highlighting colors
+
+## 🔧 Tech Stack
+
+- **Framework**: Next.js 15 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **State**: Zustand
+- **Search**: Fuse.js
+- **Fonts**: JetBrains Mono, Fira Code
+
+## 📁 Project Structure
+
+```
+├── app/                  # Next.js app directory
+├── components/           # React components
+├── commands/            # Command implementations
+├── context/             # React contexts
+├── hooks/               # Custom hooks
+├── themes/              # Theme definitions
+├── types/               # TypeScript types
+├── utils/               # Utility functions
+└── config/              # Configuration files
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+MIT License - feel free to use this project for your own portfolio!
+
+## 👤 Author
+
+**Amit Bhati**
+- Email: amitr3245@gmail.com
+- LinkedIn: [Amit Bhati](https://linkedin.com/in/amit-bhati)
+- GitHub: [@amit-bhati](https://github.com/amit-bhati)
+
+---
+
+Built with ❤️ using Next.js and TypeScript
