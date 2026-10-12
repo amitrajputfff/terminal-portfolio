@@ -1,7 +1,6 @@
 # Amit Bhati
 
 **Full Stack Engineer — Voice AI Systems**
-📞 +91 7042404233
 📧 [amitr3245@gmail.com](mailto:amitr3245@gmail.com)
 🔗 LinkedIn | GitHub
 📍 Faridabad, Haryana
