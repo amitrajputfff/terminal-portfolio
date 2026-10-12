@@ -2,7 +2,7 @@ export const resumeData = {
   name: 'Amit Bhati',
   title: 'Full Stack Engineer — Voice AI Systems',
   contact: {
-    phone: '+91 7042404233',
+    phone: 'On request (email me)',
     email: 'amitr3245@gmail.com',
     linkedin: 'https://www.linkedin.com/in/amittrrajput/',
     github: 'https://github.com/amitrajputfff',
